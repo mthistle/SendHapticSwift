@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93D9071A1AC9B0C8008FCA13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D907191AC9B0C8008FCA13 /* AppDelegate.swift */; };
+		93D9071C1AC9B0C8008FCA13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9071B1AC9B0C8008FCA13 /* ViewController.swift */; };
+		93D9071F1AC9B0C8008FCA13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D9071D1AC9B0C8008FCA13 /* Main.storyboard */; };
+		93D907211AC9B0C8008FCA13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D907201AC9B0C8008FCA13 /* Images.xcassets */; };
+		93D907241AC9B0C8008FCA13 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93D907221AC9B0C8008FCA13 /* LaunchScreen.xib */; };
+		93D907301AC9B0C8008FCA13 /* SendHapticSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9072F1AC9B0C8008FCA13 /* SendHapticSwiftTests.swift */; };
+		93D9073A1AC9B120008FCA13 /* MicrosoftBandKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D907391AC9B120008FCA13 /* MicrosoftBandKit_iOS.framework */; };
+		93D9073C1AC9B157008FCA13 /* BandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9073B1AC9B157008FCA13 /* BandManager.swift */; };
+		93D9073F1AC9B633008FCA13 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D9073E1AC9B633008FCA13 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93D9072A1AC9B0C8008FCA13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93D9070C1AC9B0C7008FCA13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93D907131AC9B0C8008FCA13;
+			remoteInfo = SendHapticSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93D907141AC9B0C8008FCA13 /* SendHapticSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendHapticSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D907181AC9B0C8008FCA13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D907191AC9B0C8008FCA13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93D9071B1AC9B0C8008FCA13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93D9071E1AC9B0C8008FCA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93D907201AC9B0C8008FCA13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93D907231AC9B0C8008FCA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		93D907291AC9B0C8008FCA13 /* SendHapticSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendHapticSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D9072E1AC9B0C8008FCA13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D9072F1AC9B0C8008FCA13 /* SendHapticSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHapticSwiftTests.swift; sourceTree = "<group>"; };
+		93D907391AC9B120008FCA13 /* MicrosoftBandKit_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftBandKit_iOS.framework; sourceTree = "<group>"; };
+		93D9073B1AC9B157008FCA13 /* BandManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandManager.swift; sourceTree = "<group>"; };
+		93D9073D1AC9B16A008FCA13 /* SendHapticSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SendHapticSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		93D9073E1AC9B633008FCA13 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93D907111AC9B0C8008FCA13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D9073F1AC9B633008FCA13 /* CoreBluetooth.framework in Frameworks */,
+				93D9073A1AC9B120008FCA13 /* MicrosoftBandKit_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D907261AC9B0C8008FCA13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93D9070B1AC9B0C7008FCA13 = {
+			isa = PBXGroup;
+			children = (
+				93D9073E1AC9B633008FCA13 /* CoreBluetooth.framework */,
+				93D907391AC9B120008FCA13 /* MicrosoftBandKit_iOS.framework */,
+				93D907161AC9B0C8008FCA13 /* SendHapticSwift */,
+				93D9072C1AC9B0C8008FCA13 /* SendHapticSwiftTests */,
+				93D907151AC9B0C8008FCA13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93D907151AC9B0C8008FCA13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93D907141AC9B0C8008FCA13 /* SendHapticSwift.app */,
+				93D907291AC9B0C8008FCA13 /* SendHapticSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93D907161AC9B0C8008FCA13 /* SendHapticSwift */ = {
+			isa = PBXGroup;
+			children = (
+				93D907191AC9B0C8008FCA13 /* AppDelegate.swift */,
+				93D9073B1AC9B157008FCA13 /* BandManager.swift */,
+				93D9073D1AC9B16A008FCA13 /* SendHapticSwift-Bridging-Header.h */,
+				93D9071B1AC9B0C8008FCA13 /* ViewController.swift */,
+				93D9071D1AC9B0C8008FCA13 /* Main.storyboard */,
+				93D907201AC9B0C8008FCA13 /* Images.xcassets */,
+				93D907221AC9B0C8008FCA13 /* LaunchScreen.xib */,
+				93D907171AC9B0C8008FCA13 /* Supporting Files */,
+			);
+			path = SendHapticSwift;
+			sourceTree = "<group>";
+		};
+		93D907171AC9B0C8008FCA13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93D907181AC9B0C8008FCA13 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93D9072C1AC9B0C8008FCA13 /* SendHapticSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				93D9072F1AC9B0C8008FCA13 /* SendHapticSwiftTests.swift */,
+				93D9072D1AC9B0C8008FCA13 /* Supporting Files */,
+			);
+			path = SendHapticSwiftTests;
+			sourceTree = "<group>";
+		};
+		93D9072D1AC9B0C8008FCA13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93D9072E1AC9B0C8008FCA13 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93D907131AC9B0C8008FCA13 /* SendHapticSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D907331AC9B0C8008FCA13 /* Build configuration list for PBXNativeTarget "SendHapticSwift" */;
+			buildPhases = (
+				93D907101AC9B0C8008FCA13 /* Sources */,
+				93D907111AC9B0C8008FCA13 /* Frameworks */,
+				93D907121AC9B0C8008FCA13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendHapticSwift;
+			productName = SendHapticSwift;
+			productReference = 93D907141AC9B0C8008FCA13 /* SendHapticSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93D907281AC9B0C8008FCA13 /* SendHapticSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D907361AC9B0C8008FCA13 /* Build configuration list for PBXNativeTarget "SendHapticSwiftTests" */;
+			buildPhases = (
+				93D907251AC9B0C8008FCA13 /* Sources */,
+				93D907261AC9B0C8008FCA13 /* Frameworks */,
+				93D907271AC9B0C8008FCA13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93D9072B1AC9B0C8008FCA13 /* PBXTargetDependency */,
+			);
+			name = SendHapticSwiftTests;
+			productName = SendHapticSwiftTests;
+			productReference = 93D907291AC9B0C8008FCA13 /* SendHapticSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93D9070C1AC9B0C7008FCA13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					93D907131AC9B0C8008FCA13 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					93D907281AC9B0C8008FCA13 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 93D907131AC9B0C8008FCA13;
+					};
+				};
+			};
+			buildConfigurationList = 93D9070F1AC9B0C7008FCA13 /* Build configuration list for PBXProject "SendHapticSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93D9070B1AC9B0C7008FCA13;
+			productRefGroup = 93D907151AC9B0C8008FCA13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93D907131AC9B0C8008FCA13 /* SendHapticSwift */,
+				93D907281AC9B0C8008FCA13 /* SendHapticSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93D907121AC9B0C8008FCA13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D9071F1AC9B0C8008FCA13 /* Main.storyboard in Resources */,
+				93D907241AC9B0C8008FCA13 /* LaunchScreen.xib in Resources */,
+				93D907211AC9B0C8008FCA13 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D907271AC9B0C8008FCA13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93D907101AC9B0C8008FCA13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D9073C1AC9B157008FCA13 /* BandManager.swift in Sources */,
+				93D9071C1AC9B0C8008FCA13 /* ViewController.swift in Sources */,
+				93D9071A1AC9B0C8008FCA13 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D907251AC9B0C8008FCA13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D907301AC9B0C8008FCA13 /* SendHapticSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93D9072B1AC9B0C8008FCA13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93D907131AC9B0C8008FCA13 /* SendHapticSwift */;
+			targetProxy = 93D9072A1AC9B0C8008FCA13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93D9071D1AC9B0C8008FCA13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93D9071E1AC9B0C8008FCA13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93D907221AC9B0C8008FCA13 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93D907231AC9B0C8008FCA13 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93D907311AC9B0C8008FCA13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93D907321AC9B0C8008FCA13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93D907341AC9B0C8008FCA13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SendHapticSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SendHapticSwift/SendHapticSwift-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		93D907351AC9B0C8008FCA13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SendHapticSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SendHapticSwift/SendHapticSwift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		93D907371AC9B0C8008FCA13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SendHapticSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendHapticSwift.app/SendHapticSwift";
+			};
+			name = Debug;
+		};
+		93D907381AC9B0C8008FCA13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SendHapticSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendHapticSwift.app/SendHapticSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93D9070F1AC9B0C7008FCA13 /* Build configuration list for PBXProject "SendHapticSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D907311AC9B0C8008FCA13 /* Debug */,
+				93D907321AC9B0C8008FCA13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D907331AC9B0C8008FCA13 /* Build configuration list for PBXNativeTarget "SendHapticSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D907341AC9B0C8008FCA13 /* Debug */,
+				93D907351AC9B0C8008FCA13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D907361AC9B0C8008FCA13 /* Build configuration list for PBXNativeTarget "SendHapticSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D907371AC9B0C8008FCA13 /* Debug */,
+				93D907381AC9B0C8008FCA13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93D9070C1AC9B0C7008FCA13 /* Project object */;
+}

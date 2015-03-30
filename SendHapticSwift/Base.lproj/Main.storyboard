@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7528.3" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7518.3"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SendHapticSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mhe-fE-IgL">
+                                <rect key="frame" x="258" y="132" width="85" height="30"/>
+                                <state key="normal" title="Send Haptic">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didSelectSendHapticButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nX5-QO-nTo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cH-O9-0IR">
+                                <rect key="frame" x="271" y="49" width="59" height="30"/>
+                                <state key="normal" title="Connect">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didSelectConnectButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="G6I-fK-UoX"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="7Zh-CA-uz2">
+                                <rect key="frame" x="282" y="87" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86276006699999996" green="0.75854877629999995" blue="0.49063515479999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="5cH-O9-0IR" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="29" id="25Y-HT-M6N"/>
+                            <constraint firstItem="7Zh-CA-uz2" firstAttribute="top" secondItem="5cH-O9-0IR" secondAttribute="bottom" constant="8" symbolic="YES" id="4xq-nN-ZBs"/>
+                            <constraint firstItem="Mhe-fE-IgL" firstAttribute="top" secondItem="5cH-O9-0IR" secondAttribute="bottom" constant="53" id="56P-IK-Ty5"/>
+                            <constraint firstItem="Mhe-fE-IgL" firstAttribute="centerX" secondItem="5cH-O9-0IR" secondAttribute="centerX" id="6JF-DY-hCg"/>
+                            <constraint firstItem="Mhe-fE-IgL" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="O70-E5-UPi"/>
+                            <constraint firstItem="7Zh-CA-uz2" firstAttribute="centerX" secondItem="5cH-O9-0IR" secondAttribute="centerX" id="dse-bJ-ns2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="connectSpinner" destination="7Zh-CA-uz2" id="1lB-Q8-B9i"/>
+                        <outlet property="sendHapticButton" destination="Mhe-fE-IgL" id="3QE-yf-gwf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
