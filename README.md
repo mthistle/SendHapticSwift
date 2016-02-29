@@ -1,3 +1,5 @@
+# THIS IS An OLD SAMPLE FOR Swift 1.2 and Xcode 6.3 Beta - You can use this as a reference but the code is out of date. For a Swift 2 sample, see: https://github.com/mthistle/MicrosoftBandKit_iOS-Swift2/tree/master/BandSensor/BSwiftHeartRate
+
 # SendHapticSwift
 A sample Microsoft Band Kit SDK project in Swift that sends a haptic (vibration) to the paired band.
 
